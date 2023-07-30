@@ -1,13 +1,11 @@
 ---
 layout: post
-title:  "This is my second post!"
+title:  "Avoiding Extra Costs When Hiring a Frontend Developer with a Good Eye for Design"
 date:   2023-07-27 15:12:50 +0200
 categories: jekyll update
-hero: /yurith-says/assets/images/welcome/hero.jpg
+hero: /yurith-says/assets/images/welcome/woman-working-computer.png
+# image rendered with the AI on this page: https://hotpot.ai/art-generator
 ---
-
-
-## Avoiding Extra Costs When Hiring a Frontend Developer with a Good Eye for Design
 
 In today's market, there are many frontend developers offering low hourly rates as freelancers, tempting some people or small companies to hire them in an effort to save money. However, this approach can often lead to unforeseen expenses. The main issue arises when the hired developer lacks a good eye for design, causing a chain of communication breakdowns and multiple revisions.
 

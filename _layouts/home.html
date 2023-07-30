@@ -2,9 +2,19 @@
 layout: default
 ---
 
-<h1>Hi, I am Yurith</h1>
-<ul>
+<div id="PostsContainer">
+    <div class="posts-headline">
+        <h1>Hi, I am Yurith</h1>
+        <p>Welcome to my blog, here I write about topics related to Frontend development, animations, web-design, UX and my principles behind my work. I hope you enjoy it. Feel free to ask for suggestions on topics you would like to read more about.</p>
+    </div>
     {% for post in site.posts %}
-        <li><a href="{{ post.url | relative_url }}">{{post.title}}</a></li>
+    <div class="post-widget">
+        <img class="post-widget-img" src="{{ post.hero }}"/>
+        <div class="post-widget-info">
+            <h2><a href="{{ post.url | relative_url }}">{{post.title}}</a></h2>
+            {{ post.date | date: "%b %d, %Y" }}
+            <button class="secondary-button">Read more</button>
+        </div>
+    </div>
     {% endfor %}
-</ul>
+</div>
