@@ -11,6 +11,7 @@ $bg-color: #00456c;
 $accents: #fff;
 $orange: #ff6000;
 $link-color: #8fffcb;
+$text-code: #75ff74;
 
 body {
   background-color: #00456c;
@@ -136,9 +137,15 @@ a {
   display: flex;
 }
 
-code{
+code.language-plaintext.highlighter-rouge{
+  font-weight: bold;
+  color: $text-code;
+}
+
+.language-plaintext.highlighter-rouge .highlight{
   background-color: #061d30;
   border-radius: 3px;
+  padding: 1px 15px;
 }
 
 highlight code{
