@@ -4,25 +4,30 @@
   --orange: #ff6000;
 }
 
-$text-color: #007ABE;
+$text-color: #00456c;
 $highlights: #9DCF75;
 $light-green: #F0FFD9;
-$bg-color: #007ABE;
+$bg-color: #00456c;
 $accents: #fff;
 $orange: #ff6000;
-$link-color: #fae730;
+$link-color: #8fffcb;
 
 body {
-  background-color: #007ABE;
+  background-color: #00456c;
   color: $light-green;
   font-family: 'Open Sans', sans-serif;
-  line-height: 1.2;
+  line-height: 1.4;
   margin: 0;
+}
+h1, a{
+  color: $link-color;
 }
 
 a {
-  color: $link-color;
   text-decoration: none;
+}
+.post-index a{
+  font-weight: bold;
 }
 .secondary-button{
   width: fit-content;
