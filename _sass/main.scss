@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap')
 
 :root{  
   --orange: #ff6000;
@@ -10,13 +10,14 @@ $light-green: #F0FFD9;
 $bg-color: #002e47;
 $accents: #fff;
 $orange: #ff6000;
-$link-color: #8fffcb;
+$link-color: #75dbdb;
 $text-code: #75ff74;
 
 body {
   background-color: #002e47;
   color: $light-green;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Cousine', monospace;
+  font-style: normal;
   line-height: 1.4;
   margin: 0;
 }
@@ -147,6 +148,7 @@ code.language-plaintext.highlighter-rouge{
   background-color: #061d30;
   border-radius: 3px;
   padding: 1px 15px;
+  margin-top: 20px;
 }
 
 .highlight code{
