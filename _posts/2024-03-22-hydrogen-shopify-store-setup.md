@@ -17,7 +17,9 @@ What you need:
 
 1. On your terminal / or preferred code editor
 
-    1. inside a directory of your choice.
+<ol>
+    <li> inside a directory of your choice.</li>
+</ol>
     2. command: npm create @shopify/hydroge@latest
     3. follow the steps
     4. set sample data from Mockup.shop
