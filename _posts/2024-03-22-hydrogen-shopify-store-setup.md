@@ -17,17 +17,18 @@ What you need:
 
 1. On your terminal / or preferred code editor
 
-    a. inside a directory of your choice.
-    b. command: npm create @shopify/hydroge@latest
-    c. follow the steps
-    d. set sample data from Mockup.shop
-    e. go to your .env file and add the values of:
-        e1. ADD PRIVATE_STOREFRONT_API_TOKEN and PUBLIC_STOREFRONT_API_TOKEN to your .env file. PUBLIC_STORE_DOMAIN was already set by default, otherwise add it as well.
-        e2. set your personal info:
+    1. inside a directory of your choice.
+    2. command: npm create @shopify/hydroge@latest
+    3. follow the steps
+    4. set sample data from Mockup.shop
+    5. go to your .env file and add the values of:
+
+        1. ADD PRIVATE_STOREFRONT_API_TOKEN and PUBLIC_STOREFRONT_API_TOKEN to your .env file. PUBLIC_STORE_DOMAIN was already set by default, otherwise add it as well.
+        2. set your personal info:
             PUBLIC_STORE_DOMAIN= "yourdevstore.myshopify.com"
             PRIVATE_STOREFRONT_API_TOKEN= (here your API number which you will find on your headless installed app on your dev store)
             PUBLIC_STOREFRONT_API_TOKEN= (here your API number which you will find on your headless installed app on your dev store)
-    f. command: npm run dev
+    6. command: npm run dev
 
     Voila! you will see your Mockup.store working with the products you have on your dev store.
 
