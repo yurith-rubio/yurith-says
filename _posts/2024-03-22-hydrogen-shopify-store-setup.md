@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "How to setup a Hydrogen Store localy with a development store."
+title:  "How to setup a Hydrogen Store in a local environment"
 date:   2024-03-21 16:00:00 +0200
 categories: jekyll update
 hero: /yurith-says/assets/images/welcome/woman-working-computer.png
 # image rendered with the AI on this page: https://hotpot.ai/art-generator
 ---
 
-<h1>How to setup a Hydrogen Shopify store in a local environment with the products from a development store.</h1>
+<h2>Setup Hydrogen with the products from a development store.</h2>
 
 If you are looking for how to setup a Hydrogen store as a developer without paying a monthly fee of your store which is necessary when installing a Hydrogen app on your store to get access to your products.  Here I will describe how I did it.
 
