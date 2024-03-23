@@ -28,7 +28,8 @@ If you are looking for how to setup a Hydrogen store as a developer without payi
             <li>go to your .env file and add the values of:</li>
             <ul>
                 <li>ADD PRIVATE_STOREFRONT_API_TOKEN and PUBLIC_STOREFRONT_API_TOKEN to your .env file. PUBLIC_STORE_DOMAIN was already set by default, otherwise add it as well.</li>
-                <li>set your personal info: </br> PUBLIC_STORE_DOMAIN= "yourdevstore.myshopify.com"</br>PRIVATE_STOREFRONT_API_TOKEN= (here your API number which you will find on your headless installed app on your dev store)</br>PUBLIC_STOREFRONT_API_TOKEN= (here your API number which you will find on your headless installed app on your dev store)</li>
+                <li>set your personal info: </li>
+                    <code> PUBLIC_STORE_DOMAIN= "yourdevstore.myshopify.com"</br>PRIVATE_STOREFRONT_API_TOKEN= (here your API number which you will find on your headless installed app on your dev store)</br>PUBLIC_STOREFRONT_API_TOKEN= (here your API number which you will find on your headless installed app on your dev store)</code>
             </ul>
             <li>command: npm run dev</li>
         </ol>
