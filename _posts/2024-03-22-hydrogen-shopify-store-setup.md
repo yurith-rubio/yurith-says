@@ -16,26 +16,21 @@ What you need:
 - Install the headless app on your dev store
 
 <ol>
-<li>On your terminal / or preferred code editor</li>
-
-
-    <ol>
-        <li>inside a directory of your choice.</li>
-        <li>command: npm create @shopify/hydroge@latest </li>
-        <li>follow the steps</li>
-        <li>set sample data from Mockup.shop</li>
-        <li>go to your .env file and add the values of:</li>
-        <ul>
-        <li>ADD PRIVATE_STOREFRONT_API_TOKEN and PUBLIC_STOREFRONT_API_TOKEN to your .env file. PUBLIC_STORE_DOMAIN was already set by default, otherwise add it as well.</li>
-        </ul>
-    </ol>
+    <li>On your terminal / or preferred code editor</li>
+        <ol>
+            <li>inside a directory of your choice.</li>
+            <li>command: npm create @shopify/hydroge@latest </li>
+            <li>follow the steps</li>
+            <li>set sample data from Mockup.shop</li>
+            <li>go to your .env file and add the values of:</li>
+            <ul>
+                <li>ADD PRIVATE_STOREFRONT_API_TOKEN and PUBLIC_STOREFRONT_API_TOKEN to your .env file. PUBLIC_STORE_DOMAIN was already set by default, otherwise add it as well.</li>
+                <li>set your personal info: </br> PUBLIC_STORE_DOMAIN= "yourdevstore.myshopify.com"</br>PRIVATE_STOREFRONT_API_TOKEN= (here your API number which you will find on your headless installed app on your dev store)</br>PUBLIC_STOREFRONT_API_TOKEN= (here your API number which you will find on your headless installed app on your dev store)</li>
+            </ul>
+            <li>command: npm run dev</li>
+        </ol>
 </ol>
-        2. set your personal info:
-            PUBLIC_STORE_DOMAIN= "yourdevstore.myshopify.com"
-            PRIVATE_STOREFRONT_API_TOKEN= (here your API number which you will find on your headless installed app on your dev store)
-            PUBLIC_STOREFRONT_API_TOKEN= (here your API number which you will find on your headless installed app on your dev store)
-    6. command: npm run dev
 
-    Voila! you will see your Mockup.store working with the products you have on your dev store.
+Voila! you will see your Mockup.store working with the products you have on your dev store.
 
-    Let me know if this short post was useful and about what other topics you would like to write about. Thanks for reading.
+Let me know if this short post was useful and about what other topics you would like to write about. Thanks for reading.
